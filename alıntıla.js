@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const hastebin = require('hastebin-gen');
-exports.run = async (client, message, args, member) => {
+exports.run = async (client, message, args, member) => {https://github.com/75DuweeN/SecretureBOT/blob/main/al%C4%B1nt%C4%B1la
     if(message.channel.type == "dm")  return;
   if(message.channel.type !== "text") return;
   if (!args[0]) return message.channel.send("**Hata:** Lütfen **Bu Kanalda Yazılmış** bir mesajın id'sini girin!")
